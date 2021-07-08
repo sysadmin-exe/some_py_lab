@@ -1,13 +1,12 @@
 #define functions
 
-def function():
-	print("this little light of mine")
+def add_numbers(num1, num2):
+    print("Hello there, the addition of ", num1, " and ", num2,  " is =>")
+    return num1+num2
 
-function()
+def main():
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    print(add_numbers(num1, num2))
 
-def function1(x):
-    return 2*(x)
-
-a = function1(2)
-
-print(a)
+main()

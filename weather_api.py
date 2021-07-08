@@ -13,8 +13,8 @@ def get_weather_desc_temp():
   temp_max = json.get('main').get('temp_max')
 
   return{'description': description,
-          'temp_min': temp_min,
-          'temp_max': temp_max
+         'temp_min': temp_min,
+         'temp_max': temp_max
         }
 def main():
   weather_dict = get_weather_desc_temp()
