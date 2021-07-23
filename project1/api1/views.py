@@ -20,3 +20,6 @@ def counter(request):
 
 def api1(request):
   return render(request, 'api1.html')
+
+def onepage(request):
+  return render(request, 'onepage.html')
