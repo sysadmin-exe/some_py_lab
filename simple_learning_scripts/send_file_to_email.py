@@ -1,3 +1,8 @@
+'''
+ABOUT: THIS IS A PYTHON SCRIPT THAT CAN BE USED TO SEND FILES FROM A LOCAL SOURCE TO email recipents
+       IT CAN BE USED IN CICD PIPELINES OR EVEN ANY PROCESS
+       JUST HELPS AUTOMATE THE PROCESS
+'''
 import os
 import smtplib
 from email.mime.multipart import MIMEMultipart
